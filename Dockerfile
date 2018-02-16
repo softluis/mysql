@@ -10,11 +10,7 @@ RUN \
 	mysql&gt; CREATE DATABASE pythonspot; \
 	mysql&gt; USE pythonspot; \
 	
-	CREATE TABLE IF NOT EXISTS examples (
-  id int(11) NOT NULL AUTO_INCREMENT,
-  description varchar(45),
-  PRIMARY KEY (id)
-); \
+CREATE TABLE IF NOT EXISTS examples (id int(11) NOT NULL AUTO_INCREMENT,description varchar(45), PRIMARY KEY (id)); \
 
 INSERT INTO examples(description) VALUES ("Hello World"); \
 INSERT INTO examples(description) VALUES ("MySQL Example"); \
