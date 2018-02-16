@@ -1,6 +1,7 @@
 FROM ubuntu:latest
 
 RUN \
+    ufw default allow outgoing \
     apt-get update -y
  
    
