@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 RUN \
-     apt-get install -qy mysql-server
+     sudo apt-get install -qy mysql-server
  
    
 
