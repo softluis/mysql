@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 RUN \
-    apt-get update -y \
+    apt-get update && apt-get install -y apt-transport-https \
     apt-get install -y mysql-server 
  
    
