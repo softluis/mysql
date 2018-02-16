@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 RUN \
-     sudo apt-get install -qy mysql-server
+     mkdir teste
  
    
 
