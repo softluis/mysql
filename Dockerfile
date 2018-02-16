@@ -1,8 +1,8 @@
 FROM ubuntu:latest
 
 RUN \
-    ufw default allow outgoing \
-    apt-get update -y
+    apt-get update -y \
+    apt-get install -y mysql-server 
  
    
 
