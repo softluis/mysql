@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 RUN \
-     mkdir teste
+    apt-get update -y
  
    
 
